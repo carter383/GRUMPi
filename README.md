@@ -8,14 +8,23 @@ this fun little indacator counts down every time the kettle has boiled and up ev
 
 you will need the following parts(amazon affliate links):
 https://tinyurl.com/4sr6p8fd
+
 https://tinyurl.com/dpcy8263
+
 https://tinyurl.com/xdr62pxx
+
 https://tinyurl.com/4xcpr5tj
+
 https://tinyurl.com/2zfepc9s
+
 https://tinyurl.com/h685xdz9
+
 https://tinyurl.com/yfj4nrvh
+
 https://tinyurl.com/yy8ywh3w
+
 https://tinyurl.com/ja6cd65v
+
 
 as for installation 
 
