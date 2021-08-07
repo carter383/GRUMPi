@@ -7,6 +7,7 @@ well heres the soloution for you meet the GRUMPi!!
 this fun little indacator counts down every time the kettle has boiled and up every hour it has not
 
 you will need the following parts(amazon affliate links):
+
 https://tinyurl.com/4sr6p8fd
 
 https://tinyurl.com/dpcy8263
