@@ -1,9 +1,13 @@
 # GRUMPi
 
 when you wake up are you GRUMPi?
+
 are you less GRUMPi after tea or coffee?
+
 do your house mates know when youve woken up?
+
 well heres the soloution for you meet the GRUMPi!!
+
 this fun little indacator counts down every time the kettle has boiled and up every hour it has not
 
 you will need the following parts(amazon affliate links):
