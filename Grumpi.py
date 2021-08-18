@@ -10,9 +10,10 @@ PI = pigpio.pi()
 positionsMicro= [2300, 1800, 1300, 850, 500]
 triggervolts = 240
 triggeramps = 2
+IP = '<SMART PLUGS IP>'
 triggerwatts = triggervolts * triggeramps
 triggermilliwatts = triggerwatts * 1000
-plug = SmartPlug("10.0.0.151")
+plug = SmartPlug(IP)
 GrumpiState = 5
 counter = 450
 hour = 3600
@@ -25,9 +26,9 @@ async def main(plug):
         energyusage =  energyusage = await plug.get_emeter_realtime()
     return energyusage
 
-def pingtest():
+def pingtest(IP):
     online = False
-    hostname = "10.0.0.151"
+    hostname = IP
     response = os.system("ping -c 1 " + hostname)
     if response == 0:
         online = True
@@ -35,7 +36,7 @@ def pingtest():
         online = False
     return online
 PI.set_servo_pulsewidth(pin ,positionsMicro[2])
-if pingtest() == True:
+if pingtest(IP) == True:
     asyncio.run(plug.update())
     PI.set_servo_pulsewidth(pin ,positionsMicro[GrumpiState[4] ])
 else:
@@ -45,7 +46,7 @@ else:
 
 while True:
     PI.set_servo_pulsewidth(pin ,positionsMicro[ - 1])
-    if pingtest() == True:
+    if pingtest(IP) == True:
         asyncio.run(plug.update())
         energyusage = asyncio.run(main(plug))
         if (energyusage['power_mw'] >= triggermilliwatts ):
