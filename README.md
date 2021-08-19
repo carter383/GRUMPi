@@ -35,6 +35,8 @@ as for installation
 
 you need to install python3, python3-pip, python-kasa and pigpiod
 servo connects directily to 3.3v gnd and gpio pin 32
+add the ipaddress of the smart plug to line 11 of the python code
+
 
 i apprechaite these instructions are not great this is due to this being one of my first uploads and im unsure what the intrest in it will be like however if therse a lot of intrest i will quickly update this
 
