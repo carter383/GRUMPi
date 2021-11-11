@@ -17,7 +17,7 @@ servo connects directily to 3.3v gnd and gpio pin 32
 add the ipaddress of the smart plug to line 13 of the python code
 
 
-i apprechaite these instructions are not great this is due to this being one of my first uploads and im unsure what the intrest in it will be like however if therse a lot of intrest i will quickly update this
+i appreciate these instructions are not great this is due to this being one of my first uploads and im unsure what the intrest in it will be like however if therse a lot of intrest i will quickly update this
 
 if you liked this please consider donating to allow me to create more projects like this
 
